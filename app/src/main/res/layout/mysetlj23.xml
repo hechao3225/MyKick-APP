@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mouse1"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp" />
+
+    <Button
+        android:id="@+id/bt_enteronline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#aa5"
+        android:shadowDx="20"
+        android:shadowDy="5"
+        android:shadowRadius="2"
+        android:text="进入在线游戏"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:id="@+id/bt_setinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改玩家信息"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/bt_enteronline"
+        android:layout_alignLeft="@+id/bt_enteronline" />
+
+    <Button
+        android:id="@+id/bt_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回主菜单"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/bt_ranklist"
+        android:layout_marginBottom="60dp"
+        android:layout_alignRight="@+id/bt_ranklist" />
+
+    <Button
+        android:id="@+id/bt_ranklist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="在线排行榜"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/bt_setinfo"
+        android:layout_alignLeft="@+id/bt_setinfo"
+        android:layout_alignRight="@+id/bt_setinfo" />
+
+</RelativeLayout>

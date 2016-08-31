@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">打地老鼠</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="login_username">登录账号</string>
+    <string name="login_password">登录密码</string>
+    <string name="regist_password">确认密码</string>
+    <string name="login_btn_text">登录</string>
+    <string name="regist_btn_text">注册</string>
+    <string name="set_btn_text">确认修改</string>
+    <string name="login_title">用户登录</string>
+    <string name="usercity">所在城市</string>
+    <string name="userphone">手机号码</string>
+    <string name="userqq">Q Q 号码</string>
+    <string name="regist_title">注册新用户</string>
+    <string name="set_title">修改玩家信息</string>
+    <string name="login_tip_user">请输入玩家账号</string>
+    <string name="login_tip_pwd">请输入登录密码</string>
+    <string name="login_regist">没有账号 去注册</string>
+    <string name="regist_login">已有账号 去登录</string>
+    <string name="regist_tip_user">请输入您的账号</string>
+    <string name="regist_tip_pwd1">请设置您的密码</string>
+    <string name="regist_tip_pwd2">请重复上面密码</string>
+    <string name="set_tip_usercity">请输入您所在城市</string>
+    <string name="set_tip_userphone">请输入您的手机号</string>
+    <string name="set_tip_userqq">请输入您的QQ号</string>
+    <string name="btnText">访问服务器Json文件</string>
+    <string name="demoText"></string>
+</resources>
